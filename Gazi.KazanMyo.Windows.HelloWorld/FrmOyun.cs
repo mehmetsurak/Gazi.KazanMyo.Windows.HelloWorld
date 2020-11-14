@@ -55,6 +55,7 @@ namespace Gazi.KazanMyo.Windows.HelloWorld
 
         private void tmrSure_Tick(object sender, EventArgs e)
         {
+            //asd
             sure--;
             lblSure.Text = sure.ToString();
             if(sure <= 0)
